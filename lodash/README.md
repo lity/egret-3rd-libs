@@ -1,5 +1,6 @@
 为适配微信小游戏：
-## 一、lodash.js 中查找
+## 一、lodash.js 中
+查找：
   /** Used as a reference to the global object. */
   var root = freeGlobal || freeSelf || Function('return this')();
 替换成：
@@ -19,7 +20,9 @@
     clearInterval: clearInterval
   } : freeGlobal || freeSelf || Function('return this')();
 
-## 二、lodash.js最后// Export for CommonJS support.下方需增加一行：
+## 二、lodash.js 最后
+
+// Export for CommonJS support.下方需增加一行：
     window._ = _;
 
 ## 三、编译

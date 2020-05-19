@@ -1,0 +1,5 @@
+{
+	"name": "colyseus",
+	"compilerVersion": "5.3.5",
+	"typings": "typings/colyseus.d.ts"
+}

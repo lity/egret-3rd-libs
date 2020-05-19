@@ -1,0 +1,8 @@
+{
+	"name": "lodash",
+	"compilerVersion": "5.3.5",
+	"typings": "node_modules/@types/lodash/",
+	"dependencies": {
+		"@types/lodash": "4.14.108"
+	}
+}

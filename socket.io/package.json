@@ -1,0 +1,8 @@
+{
+	"name": "socket.io",
+	"compilerVersion": "5.3.10",
+	"typings": "node_modules/@types/socket.io-client/index.d.ts",
+	"dependencies": {
+		"@types/socket.io-client": "1.4.34"
+	}
+}

@@ -1,6 +1,6 @@
 {
 	"name": "lodash",
-	"compilerVersion": "5.3.5",
+	"compilerVersion": "5.3.10",
 	"typings": "node_modules/@types/lodash/",
 	"dependencies": {
 		"@types/lodash": "4.14.108"

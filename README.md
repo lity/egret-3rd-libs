@@ -4,4 +4,8 @@
 
 官方说明：[第三方库的使用方法](http://developer.egret.com/cn/github/egret-docs/extension/threes/instructions/index.html)
 
-编译命令：egret build mylib
+编译命令：
+
+egret build colyseus
+egret build lodash
+egret build socket.io

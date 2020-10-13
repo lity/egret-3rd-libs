@@ -1,0 +1,5 @@
+{
+	"name": "notepack",
+	"compilerVersion": "5.3.10",
+	"typings": "typings/notepack.d.ts"
+}

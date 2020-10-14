@@ -50,7 +50,7 @@ declare namespace Colyseus {
     class EventEmitter<CallbackSignature extends (...args: any[]) => any> {
         handlers: Array<CallbackSignature>;
         register(cb: CallbackSignature, once?: boolean): this;
-        // invoke(...args: FunctionParameters<CallbackSignature>): void; // 为了适配 egret 注释掉
+        // invoke(...args: FunctionParameters<CallbackSignature>): void; // 为了适配 egret 注释掉，改为下一行
         invoke(...args: any[]): void;
         remove(cb: CallbackSignature): void;
         clear(): void;
